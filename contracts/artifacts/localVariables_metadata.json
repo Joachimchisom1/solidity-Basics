@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "placeOfLocalVars",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/localVariable.sol": "localVariables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/localVariable.sol": {
+			"keccak256": "0x5372b6d1c2956ceae2b97005946fa7b0dfb6a9c5e43c330ca92ef8a9247a3326",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b011a152286c02a0fe5b226511ca737e3166535aa6c84db44a40826f7cd61c2c",
+				"dweb:/ipfs/QmZJwL6rnLHCfZEwqMsuF1nvvBS4UakoVSPWJy7Xc64YnT"
+			]
+		}
+	},
+	"version": 1
+}

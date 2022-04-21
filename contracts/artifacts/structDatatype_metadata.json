@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "skills",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "salary",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "skills",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "salary",
+						"type": "int256"
+					}
+				],
+				"name": "changeEmployeeData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "emp",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "skills",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "salary",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/structdatatype.sol": "structDatatype"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/structdatatype.sol": {
+			"keccak256": "0xc1ffe813eb0a9a01725eb945756acec7edf767245eb2aef900bda329ddc0cfb5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://78a685f89657c5d9d905fc576cbf2ecd61b014ff8939cb9b78da9d78f9724162",
+				"dweb:/ipfs/QmQJC7SUvVMJFqNbxjB4G6dHCLe5MG6GBqNFd1Qaf8nrno"
+			]
+		}
+	},
+	"version": 1
+}

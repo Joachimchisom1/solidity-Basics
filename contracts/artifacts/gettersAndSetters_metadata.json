@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gettersAndSetters.sol": "gettersAndSetters"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gettersAndSetters.sol": {
+			"keccak256": "0x2825330a3bc8d6459ff5395cb57a103074c671bea3d485315b85b2a387f3a17d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc9b505244bd4738f815267a479462d60dc48ca93a96738efade53427a939bd1",
+				"dweb:/ipfs/QmdYCiqGaEkHEMNC7bTDYDoqs5RNubgfUejJpmdTHtbQzi"
+			]
+		}
+	},
+	"version": 1
+}

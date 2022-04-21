@@ -1,0 +1,71 @@
+{
+	"id": "c0e7a554efc31399f9145f2c46fd71c0",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.13",
+	"solcLongVersion": "0.8.13+commit.abaa5c0e",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/visibilites.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\n// PUBLIC\r\n// contract initialContract {\r\n\r\n// // Public Visibility function\r\n//      //1.  We can use it every where,\r\n//     // 2.  Inside the contract,\r\n//     // 3.  Deriving contract.\r\n//     // 4.  Other contract.  \r\n//     function publicFunction() public pure returns(string memory) {\r\n//         return \"public\";\r\n//     }\r\n\r\n//     string public pub = publicFunction();\r\n// }\r\n\r\n// // 3.  Deriving contract.\r\n// contract second is initialContract {\r\n\r\n// }\r\n\r\n//  // 4.  Other contract.  \r\n//  contract second1 {\r\n//      initialContract i = new initialContract();\r\n//      string public call = i.publicFunction();\r\n// \r\n\r\n\r\n\r\n// 2. PRIVATE"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/visibilites.sol": {
+				"ast": {
+					"absolutePath": "contracts/visibilites.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "35:31:0"
+						}
+					],
+					"src": "35:685:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

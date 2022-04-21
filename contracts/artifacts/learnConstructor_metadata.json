@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "generate_age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "personAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/const.sol": "learnConstructor"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/const.sol": {
+			"keccak256": "0xc5be8405044ec6cb6f30529168e4d71e1651b25ef9e8674eede86460be732981",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b401ed8cf3d03bd3ae7e5e48c9168b7c89f40a7b33c8c93c93260e7cfe6e11cb",
+				"dweb:/ipfs/QmSTZ8bFxrJt3dXznYRD7R5iKQrqJF28ADB17XhLcbuEbR"
+			]
+		}
+	},
+	"version": 1
+}

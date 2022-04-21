@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "range",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/loops.sol": "loops"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/loops.sol": {
+			"keccak256": "0x51f139e550aa1e341645dc63522dad9749475d89166ddb08bc1579192fe45fb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6382f0fc97b6dd6a734fc7fb673dae72a4b18eaed8e9cc4d36e774a365612600",
+				"dweb:/ipfs/QmU26PZ3aV5TnyB2PhabTj5EWqbg7bE7GEuMVk2XYEXLxz"
+			]
+		}
+	},
+	"version": 1
+}
